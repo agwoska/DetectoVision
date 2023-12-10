@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1702289267">
+  <File Type="ROUTE-PWR" Name="topModule_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="topModule.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="topModule_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="topModule_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="topModule_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="topModule.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="topModule_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="topModule_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="topModule_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="topModule_opt.dcp"/>
+  <File Type="OPT-DRC" Name="topModule_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="topModule.hwdef"/>
+  <File Type="PWROPT-DCP" Name="topModule_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="topModule_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="topModule_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="topModule_placed.dcp"/>
+  <File Type="PLACE-IO" Name="topModule_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="topModule_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="topModule_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="topModule_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="topModule_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="topModule_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="topModule_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="topModule.bin"/>
+  <File Type="PLACE-TIMING" Name="topModule_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="topModule_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="topModule_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="topModule_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="topModule.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="topModule_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="topModule_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="topModule_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="topModule.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="topModule_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="topModule_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="topModule_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="topModule_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="topModule_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="topModule_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="topModule_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="topModule_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="topModule_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="topModule_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="topModule_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="topModule_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="topModule_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="topModule_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="topModule_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="topModule_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="topModule_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="topModule_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="topModule_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="topModule_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="topModule_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="topModule_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="topModule_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="topModule_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="topModule_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="topModule_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="topModule_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="topModule.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="topModule_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="topModule_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="topModule.nky"/>
+  <File Type="BITSTR-BMM" Name="topModule_bd.bmm"/>
+  <File Type="PDI-FILE" Name="topModule.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="topModule_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="topModule_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="topModule.rcfi"/>
+  <File Type="CFI_FILE" Name="topModule.cfi"/>
+  <File Type="RNPI_FILE" Name="topModule.rnpi"/>
+  <File Type="NPI_FILE" Name="topModule.npi"/>
+  <File Type="RBD_FILE" Name="topModule.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="topModule.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="topModule.sysdef"/>
+  <File Type="BG-BGN" Name="topModule.bgn"/>
+  <File Type="BG-DRC" Name="topModule.drc"/>
+  <File Type="RDI-RDI" Name="topModule.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="topModule_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="topModule_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/SCCB.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cameraCaptureImage.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cameraConfig.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cameraConfig_setup.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cameraConfig_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cameraControl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk25_mod.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clkDiv_1Hz.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/frameBuffer_greyScale.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/segDisplay.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_controller.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/topModule.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/frameBuffer_edgeDetection.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pixelBuffer.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="topModule"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/cameraConfig_top.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="bram"/>
+</GenRun>

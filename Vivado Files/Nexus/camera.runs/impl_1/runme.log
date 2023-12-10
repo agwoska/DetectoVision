@@ -1,0 +1,317 @@
+
+*** Running vivado
+    with args -log topModule.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source topModule.tcl -notrace
+
+
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source topModule.tcl -notrace
+Command: link_design -top topModule -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Personal/EC551/FinalProject/cameraNexus/camera.gen/sources_1/ip/bram/bram.dcp' for cell 'frame/edgeDetect'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1013.531 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 200 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W5' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:7]
+CRITICAL WARNING: [Common 17-69] Command failed: 'E19' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:32]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U19' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:33]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V19' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:34]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W18' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:35]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U15' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:36]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V13' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:39]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V3' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:40]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W3' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:41]
+CRITICAL WARNING: [Common 17-69] Command failed: 'N3' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:44]
+CRITICAL WARNING: [Common 17-69] Command failed: 'P1' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:45]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W7' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:50]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W6' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:51]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V8' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:53]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U5' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:54]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W4' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:61]
+CRITICAL WARNING: [Common 17-69] Command failed: 'B15' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:85]
+CRITICAL WARNING: [Common 17-69] Command failed: 'A17' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:88]
+CRITICAL WARNING: [Common 17-69] Command failed: 'L17' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:102]
+CRITICAL WARNING: [Common 17-69] Command failed: 'M19' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:103]
+CRITICAL WARNING: [Common 17-69] Command failed: 'G19' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:119]
+CRITICAL WARNING: [Common 17-69] Command failed: 'H19' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:120]
+CRITICAL WARNING: [Common 17-69] Command failed: 'J19' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:121]
+CRITICAL WARNING: [Common 17-69] Command failed: 'N19' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:122]
+CRITICAL WARNING: [Common 17-69] Command failed: 'N18' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:123]
+CRITICAL WARNING: [Common 17-69] Command failed: 'P19' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:131]
+CRITICAL WARNING: [Common 17-69] Command failed: 'R19' is not a valid site or package pin name. [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc:132]
+Finished Parsing XDC File [C:/Personal/EC551/FinalProject/cameraNexus/camera.srcs/constrs_1/new/constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1138.145 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+8 Infos, 0 Warnings, 27 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors, 1 Warnings
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.794 . Memory (MB): peak = 1160.156 ; gain = 22.012
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: a2704fee
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1695.703 ; gain = 535.547
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: a2704fee
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2065.250 ; gain = 0.000
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: a2704fee
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2065.250 ; gain = 0.000
+Phase 1 Initialization | Checksum: a2704fee
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2065.250 ; gain = 0.000
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: a2704fee
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 2065.250 ; gain = 0.000
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: a2704fee
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 2065.250 ; gain = 0.000
+Phase 2 Timer Update And Timing Data Collection | Checksum: a2704fee
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 2065.250 ; gain = 0.000
+
+Phase 3 Retarget
+INFO: [Opt 31-1566] Pulled 1 inverters resulting in an inversion of 20 pins
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 166c3c336
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.107 . Memory (MB): peak = 2065.250 ; gain = 0.000
+Retarget | Checksum: 166c3c336
+INFO: [Opt 31-389] Phase Retarget created 36 cells and removed 51 cells
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 170daa9b5
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.115 . Memory (MB): peak = 2065.250 ; gain = 0.000
+Constant propagation | Checksum: 170daa9b5
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: c2840f5e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.174 . Memory (MB): peak = 2065.250 ; gain = 0.000
+Sweep | Checksum: c2840f5e
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 47 cells
+
+Phase 6 BUFG optimization
+Phase 6 BUFG optimization | Checksum: c2840f5e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.213 . Memory (MB): peak = 2065.250 ; gain = 0.000
+BUFG optimization | Checksum: c2840f5e
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: c2840f5e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.214 . Memory (MB): peak = 2065.250 ; gain = 0.000
+Shift Register Optimization | Checksum: c2840f5e
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: c2840f5e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.220 . Memory (MB): peak = 2065.250 ; gain = 0.000
+Post Processing Netlist | Checksum: c2840f5e
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 1345d0ac8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.256 . Memory (MB): peak = 2065.250 ; gain = 0.000
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2065.250 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 1345d0ac8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.258 . Memory (MB): peak = 2065.250 ; gain = 0.000
+Phase 9 Finalization | Checksum: 1345d0ac8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.259 . Memory (MB): peak = 2065.250 ; gain = 0.000
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |              36  |              51  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |              47  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 1345d0ac8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.260 . Memory (MB): peak = 2065.250 ; gain = 0.000
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2065.250 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 72 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 131 newly gated: 45 Total Ports: 144
+Number of Flops added for Enable Generation: 11
+
+Ending PowerOpt Patch Enables Task | Checksum: 152f0728c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.284 . Memory (MB): peak = 2222.262 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 152f0728c
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2222.262 ; gain = 157.012
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: 120c2b50b
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.273 . Memory (MB): peak = 2222.262 ; gain = 0.000
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2222.262 ; gain = 0.000
+Ending Final Cleanup Task | Checksum: 120c2b50b
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2222.262 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2222.262 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 120c2b50b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2222.262 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+34 Infos, 0 Warnings, 27 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 2222.262 ; gain = 1084.117
+INFO: [runtcl-4] Executing : report_drc -file topModule_drc_opted.rpt -pb topModule_drc_opted.pb -rpx topModule_drc_opted.rpx
+Command: report_drc -file topModule_drc_opted.rpt -pb topModule_drc_opted.pb -rpx topModule_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Personal/EC551/FinalProject/cameraNexus/camera.runs/impl_1/topModule_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2222.262 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2222.262 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2222.262 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2222.262 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2222.262 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2222.262 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 2222.262 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Personal/EC551/FinalProject/cameraNexus/camera.runs/impl_1/topModule_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2222.262 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: ef8dd4c6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2222.262 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2222.262 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus AN are not locked:  'AN[3]' 
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus LED are not locked:  'LED[14]'  'LED[13]'  'LED[10]'  'LED[9]'  'LED[8]'  'LED[5]'  'LED[4]'  'LED[3]'  'LED[2]'  'LED[1]' 
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus SEG are not locked:  'SEG[4]'  'SEG[3]'  'SEG[1]'  'SEG[0]' 
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus data are not locked:  'data[1]'  'data[0]' 
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus green are not locked:  'green[0]' 
+ERROR: [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.
+	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets pclk_IBUF] >
+
+	Clock Rule: rule_gclkio_bufg
+	Status: FAILED
+	Rule Description: An IOB driving a BUFG must use a CCIO in the same half side (top/bottom) of chip as the BUFG
+
+	pclk_IBUF_inst (IBUF.O) is locked to IOB_X0Y133
+	pclk_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y31
+Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 101e845a4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.580 . Memory (MB): peak = 2222.262 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 101e845a4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.580 . Memory (MB): peak = 2222.262 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 101e845a4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.581 . Memory (MB): peak = 2222.262 ; gain = 0.000
+50 Infos, 5 Warnings, 27 Critical Warnings and 3 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 11 06:22:25 2023...
