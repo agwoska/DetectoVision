@@ -1,26 +1,8 @@
-    `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 11/20/2022 05:49:10 PM
-// Design Name: 
-// Module Name: Camera_Controller
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+`timescale 1ns / 1ps
 
 
-module Camera_Controller(
+
+module cameraControl(
     // Camera Pins
     input               clk25,
     input wire [7:0]    OV7670_D,
@@ -34,8 +16,8 @@ module Camera_Controller(
     output              OV7670_XCLK,
     
     // output to RAM
-    output      [9:0]   outX,
-    output      [8:0]   outY,
+    output  wire     [9:0]   outX,
+    output  wire    [8:0]   outY,
     output      [15:0]  pixelValue,
     output              pixelValid
     );
@@ -47,15 +29,15 @@ module Camera_Controller(
     reg [3:0]   startTimer = 4'hF;
     reg         configStart = 1;
     wire        configDone;
-    // just leave start high for a bit before setting it to 0.  Really only need 1 clock cycle
-    // though
+    
+    // making sure that the config only runs for a finite number of cycles
     always@(posedge clk25) begin
         startTimer <= startTimer -1;
         if (startTimer == 4'h0) begin
             configStart <= 0;
         end
     end
-    camera_configure camConfig  (   .clk(clk25),
+    cameraConfig_top camConfig  (   .clk(clk25),
                                     .start(configStart),
                                     .sioc(OV7670_SIOC),
                                     .siod(OV7670_SIOD),
@@ -63,7 +45,8 @@ module Camera_Controller(
     );
     
     wire frameDone;
-    camera_read camCapture (        .p_clock(OV7670_PCLK),
+    cameraCaptureImage camCapture (     
+                                    .p_clock(OV7670_PCLK),
                                     .vsync(OV7670_VSYNC),
                                     .href(OV7670_HREF),
                                     .p_data(OV7670_D),
