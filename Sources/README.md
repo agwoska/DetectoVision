@@ -6,3 +6,4 @@ This folder contains scripts for each design aspect of our model. Following is a
 - **VGA**: All files to test the VGA display.
 - **Full Integration-Basys**: All source files to run our hardware model on Basys3.
 - **Full Integration-Nexus**: All source files to run our hardware model on Nexus7.
+- **esp32cam**: ESP32-CAM code if using this camera
