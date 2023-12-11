@@ -1,4 +1,4 @@
-# Individual .v Files
+# Modular Sections
 This folder contains scripts for each design aspect of our model. Following is a brief description of each folder.
 
 - Camera Working: All files needed to get display from the camera.
