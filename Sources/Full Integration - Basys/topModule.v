@@ -24,7 +24,7 @@ module topModule(
     
     // switch 
     input redHue, // turns on the red hue
-    input edgeOn, // display edge detection
+    input positionSW, // display edge detection
     
     // display
     output [3:0] red,
@@ -44,17 +44,12 @@ module topModule(
     wire [8:0] outY;
     wire pixelValid;
     
-    //edge detection variables
-    wire [3:0] ul, uc, ur, ml, mr, dl, dc, dr;    
-    wire edgeValid;
-    wire [9:0]edgeWrite_X;
-    wire [8:0]edgeWrite_Y;
-    wire [9:0]edgeRead_X;
-    wire [8:0]edgeRead_Y;
-    wire [3:0] pixelVGA_edge;
     
+    //hough transform
+    wire [9:0] idealX;
+    wire [8:0] idealY;
     
-    
+    reg changeIdeal = 0;
     
     clk25_mod clkDiv(
         .clk(clkMain),
@@ -99,60 +94,27 @@ module topModule(
         .inY(outY),
         .outX(outX_vgaOut),
         .outY(outY_vgaOut),
-        .outX_edge(edgeRead_X),
-        .outY_edge(edgeRead_Y),
         .inPixel(pixelValue),
         .pixelValid(pixelValid),
-        .outPixel(pixelVGA),
-        .ul(ul),
-        .uc(uc),
-        .ur(ur),
-        .ml(ml),
-        .mr(mr),
-        .dl(dl),
-        .dc(dc),
-        .dr(dr),
-        .edgeValid(edgeValid),
-        .outX_edgeOut(edgeWrite_X),
-        .outY_edgeOut(edgeWrite_Y)
+        .outPixel(pixelVGA)
     );
     
-    // main module for edge detection
-//    frameBuffer_edgeDetection frame2(
-//        .clk(clkMain),
-//        .reset(resetButton),
-//        .redHue(redHue),
-//        .ul(ul),
-//        .uc(uc),
-//        .ur(ur),
-//        .ml(ml),
-//        .mr(mr),
-//        .dl(dl),
-//        .dc(dc),
-//        .dr(dr),
-//        .edgeValid(edgeValid),
-//        .outX_edgeOut(edgeWrite_X),
-//        .outY_edgeOut(edgeWrite_Y),
-//        .outX_VGA(outX_vgaOut),
-//        .outY_VGA(outY_vgaOut),
-//        .outPixel(pixelVGA_edge),
-//        .outX_edge(edgeRead_X),
-//        .outY_edge(edgeRead_Y)    
-//    );
-    
-//    pixelBuffer buffer(
-//        .clk(pclk),
-//        .reset(resetButton),
-//        .pixelValid(pixelValid),
-//        .pixelIn(pixelValue),
-//        .pixelOut(pixelBuffer)    
-//    );
+    houghAccumulator accumulator (
+        .clk(clkMain),
+        .X(outX_vgaOut),
+        .Y(outY_vgaOut),
+        .pixel(pixelVGA),
+        .idealX(idealX),
+        .idealY(idealY)    
+    );
+
     
     
     
     // used mainly for debugging
     segDisplay disp(
-        .x(pixelValue),
+//        .x(pixelValue),
+        .x(idealX),
         .clk(clk1_reg),
         .seg(SEG),
         .an(AN),
@@ -163,9 +125,11 @@ module topModule(
     VGA display(
         .pixel_clk(clk25_reg),
         .redHue(redHue),
-        .edgeOn(edgeOn),
+        .changeIdeal(changeIdeal),
+        .positionSW(positionSW),
+        .ball_x(idealX),
+        .ball_y(idealY),
         .vgaIn(pixelVGA),
-        .vgaInEdge(),
         .outX(outX_vgaOut),
         .outY(outY_vgaOut),
         .VGA_R(red),
@@ -175,6 +139,16 @@ module topModule(
         .VGA_VS(VS)
     );
     
+
+    
+    always@(posedge clk1_reg)
+    begin
+        if(changeIdeal == 1'b0)begin
+            changeIdeal <= 1'b1;
+        end
+        else
+             changeIdeal <= 1'b0;
+    end
 
     // used mainly for debugging
     always@(posedge clk1_reg)
