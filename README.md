@@ -1,6 +1,6 @@
 # DetectoVision
 
-Develop a near real-time detection system to track physical objects using FPGA technology for enhanced image processing.
+A near real-time detection system to track physical objects using FPGA technology for enhanced image processing.
 
 This project was done for EC 551 at Boston University.
 
@@ -16,7 +16,8 @@ This project was done for EC 551 at Boston University.
 2. [Code To Look At](#code-to-look-at)
 3. [Peripherals](#peripherals)
 4. [Licenses and Contributions](#licenses-and-contributions)
-5. [Known Problems](#known-problems)
+5. [Video](#video)
+6. [Known Problems](#known-problems)
 
 ## Getting Started
 
@@ -38,6 +39,16 @@ All fully integrated modules use a BRAM IP, which may not transfer well when pul
 This project uses parts of the Xilinx IP.
 
 This project is licensed [here](./LICENSE).
+
+## Video
+
+The demo video is located ![here](todo) on Google Drive.
+
+Title: DetectoVision - EC551 Fall 2023
+
+Description:
+
+A near real-time detection system to track physical objects using FPGA technology for enhanced image processing.
 
 ## Known Problems
 
