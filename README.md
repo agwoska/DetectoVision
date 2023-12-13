@@ -22,20 +22,20 @@ This project was completed for EC 551 at Boston University.
 
 ## Getting Started
 
-The Verilog files for out implementation are located in ![Sources](./Sources) along with the ESP32-CAM implementation.
+The Verilog files for out implementation are located in [Sources](./Sources) along with the ESP32-CAM implementation.
 
-The Xilinx IP and Vivado files are located in ![Vivado Files](./Vivado%20Files). 
-Since we are using the Basys 3, make sure to use the correct ![directory](./Vivado%20Files/Basys).
-The ![Nexys implementation](./Vivado%20Files/Nexus) was used for simulation purposes.
+The Xilinx IP and Vivado files are located in [Vivado Files](./Vivado%20Files). 
+Since we are using the Basys 3, make sure to use the correct [directory](./Vivado%20Files/Basys).
+The [Nexys implementation](./Vivado%20Files/Nexus) was used for simulation purposes.
 The hardware layout is given in a [later section](#hardware).
 
-For a general understanding of this program, feel free to look at the ![presentation](DetectoVision_EC551_FinalProject.pptx)
+For a general understanding of this program, feel free to look at the [presentation](DetectoVision_EC551_FinalProject.pptx)
 and the [demo video](#video).
 
 ## Code To Look At
 
 The image processing algorithm is located in `Sources/Full Integration - Basys/houghAccumulator.v` or
-![here](./Sources/Full%20Integration%20-%20Basys/houghAccumulator.v).
+[here](./Sources/Full%20Integration%20-%20Basys/houghAccumulator.v).
 
 ## Hardware
 
@@ -52,7 +52,7 @@ This project requires two pieces of hardware:
 ### BRAM
 All fully integrated modules use a BRAM IP, which may not transfer well when pulling this repo. For this reason, the following is an image of the IP block.
 
-![BRAM IP](https://github.com/agwoska/DetectoVision/assets/66330225/8e281228-dafa-4932-bf13-3c9873e1f388)
+[BRAM IP](https://github.com/agwoska/DetectoVision/assets/66330225/8e281228-dafa-4932-bf13-3c9873e1f388)
 
 ## Licenses and Contributions
 
