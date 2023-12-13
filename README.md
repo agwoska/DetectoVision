@@ -35,7 +35,7 @@ and the [demo video](#video).
 ## Code To Look At
 
 The image processing algorithm is located in `Sources/Full Integration - Basys/houghAccumulator.v` or
-[here](./Sources/Full%20Integration%20-%20Basys/houghAccumulator.v).
+[here](./Sources/Full%20Integration%20-%20Basys/houghAccumulator3.v).
 
 ## Hardware
 
@@ -52,7 +52,7 @@ This project requires two pieces of hardware:
 ### BRAM
 All fully integrated modules use a BRAM IP, which may not transfer well when pulling this repo. For this reason, the following is an image of the IP block.
 
-[BRAM IP](https://github.com/agwoska/DetectoVision/assets/66330225/8e281228-dafa-4932-bf13-3c9873e1f388)
+![BRAM IP](https://github.com/agwoska/DetectoVision/assets/66330225/8e281228-dafa-4932-bf13-3c9873e1f388)
 
 ## Licenses and Contributions
 
