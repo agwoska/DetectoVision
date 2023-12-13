@@ -29,6 +29,9 @@ Since we are using the Basys 3, make sure to use the correct ![directory](./Viva
 The ![Nexys implementation](./Vivado%20Files/Nexys) was used for simulation purposes.
 The hardware layout is given in a ![later section](#hardware).
 
+For a general understanding of this program, feel free to look at the ![presentation](DetectoVision_EC551_FinalProject.pptx)
+and the ![demo video](#video).
+
 ## Code To Look At
 
 The image processing algorithm is located in `Sources/Full Integration - Basys/houghAccumulator.v` or
