@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Dec 12 23:33:11 2023
+# Process ID: 14332
+# Current directory: C:/Personal/EC551/FinalProject/gitHub/DetectoVision/Vivado Files/Basys
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22660 C:\Personal\EC551\FinalProject\gitHub\DetectoVision\Vivado Files\Basys\camera.xpr
+# Log file: C:/Personal/EC551/FinalProject/gitHub/DetectoVision/Vivado Files/Basys/vivado.log
+# Journal file: C:/Personal/EC551/FinalProject/gitHub/DetectoVision/Vivado Files/Basys\vivado.jou
+# Running On: FLASH, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 33492 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Personal/EC551/FinalProject/gitHub/DetectoVision/Vivado Files/Basys/camera.xpr}
