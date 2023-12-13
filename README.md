@@ -66,13 +66,13 @@ The demo video is located ![here](https://drive.google.com/drive/folders/191mPTw
 You must have the correct access to get to it.
 Reach out to Andrew at agwoska@bu.edu or andrew@woska.org for access if needed.
 
-Title: Team DetectoVision - EC551 Fall 2023
+Title: DetectoVision
 
 Description:
 
 A near real-time detection system to track physical objects using FPGA technology and a camera for enhanced image processing.
 
-This project was created for EC551 at Boston University.
+This project was created for EC551 at Boston University in Fall 2023.
 
 See our GitHub for more information at: https://github.com/agwoska/DetectoVision
 
