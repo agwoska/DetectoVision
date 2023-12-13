@@ -1,5 +1,10 @@
 `timescale 1ns / 1ps
 
+/////////////////////////////////////////
+// Team: DetectoVision
+// EC 551 Advanced Digital Design
+// Description: NOT USED
+/////////////////////////////////////////
 
 module houghAccumulator(
     input clk, 

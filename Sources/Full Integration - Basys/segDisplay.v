@@ -1,5 +1,11 @@
 `timescale 1ns / 1ps
 
+/////////////////////////////////////////
+// Team: DetectoVision
+// EC 551 Advanced Digital Design
+// Description: 7 segment display
+/////////////////////////////////////////
+
 module segDisplay(
 	input [15:0] x,
     input clk,

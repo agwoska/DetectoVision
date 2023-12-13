@@ -1,6 +1,10 @@
 `timescale 1ns / 1ps
 
-// clock divider to 25 MHz
+/////////////////////////////////////////
+// Team: DetectoVision
+// EC 551 Advanced Digital Design
+// Description: clk divider to 25 MHz
+/////////////////////////////////////////
 module clk25_mod(
     input clk,
     input reset,

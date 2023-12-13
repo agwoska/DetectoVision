@@ -1,6 +1,10 @@
 `timescale 1ns / 1ps
 
-
+/////////////////////////////////////////
+// Team: DetectoVision
+// EC 551 Advanced Digital Design
+// Description: Main camera module
+/////////////////////////////////////////
 
 module cameraControl(
     // Camera Pins

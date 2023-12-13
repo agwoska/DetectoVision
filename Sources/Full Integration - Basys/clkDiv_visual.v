@@ -1,6 +1,10 @@
 `timescale 1ns / 1ps
 
-// clock divider to 25 MHz
+/////////////////////////////////////////
+// Team: DetectoVision
+// EC 551 Advanced Digital Design
+// Description: clk divider to 8 Hz
+/////////////////////////////////////////
 module clkDiv_visual(
     input clk,
     input reset,
@@ -19,7 +23,6 @@ begin
     if (reset)
     begin 
         counter <= 0;
-//        clk25 <= 0;
     end
     else
     begin

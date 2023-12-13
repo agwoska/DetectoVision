@@ -1,6 +1,10 @@
 `timescale 1ns / 1ps
 
-
+/////////////////////////////////////////
+// Team: DetectoVision
+// EC 551 Advanced Digital Design
+// Description: object detection
+/////////////////////////////////////////
 module houghAccumulator3(
     input clk, 
     input [9:0] X,
@@ -90,14 +94,7 @@ module houghAccumulator3(
             writeEnable <= 1'b0;
     end
     
-    
-//    always@(posedge clk)
-//    begin
-//        if(caseReg == 2'b00) begin
-//            accTemp <= 0;
-            
-//        end
-//    end
+
       
     
     always@(posedge clk)
@@ -142,7 +139,6 @@ module houghAccumulator3(
             begin
             caseReg <= 3'b011;
             
-//            if(started) begin
                 X_reg <= X_reg - RADIUS;
                 Y_reg <= Y_reg - RADIUS;
                 if(Y_reg >= (ROW_BIAS) && Y_reg < (COL_LENGTH + ROW_BIAS) && (X_reg >= (COL_BIAS) && X_reg < (ROW_LENGTH + COL_BIAS)))
@@ -152,7 +148,6 @@ module houghAccumulator3(
                         accTemp <= accTemp + 1;
                 end
                
-//            end        
             end
             3'b011:
             begin
@@ -241,7 +236,6 @@ module houghAccumulator3(
                     accBest <= accTemp;                                
             end
             end 
-//            accTemp <= 0;   
         end
      end
    
