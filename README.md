@@ -34,7 +34,7 @@ and the [demo video](#video).
 
 ## Code To Look At
 
-The image processing algorithm is located in `Sources/Full Integration - Basys/houghAccumulator.v` or
+The image processing algorithm is located in `Sources/Full Integration - Basys/houghAccumulator3.v` or
 [here](./Sources/Full%20Integration%20-%20Basys/houghAccumulator3.v).
 
 ## Hardware
@@ -66,9 +66,9 @@ The demo video is located [here](https://drive.google.com/file/d/1krqtR_ORjHd4bO
 You must have the correct access to get to it.
 Reach out to Andrew at agwoska@bu.edu or andrew@woska.org for access if needed.
 
-Title: DetectoVision
+**Title:** DetectoVision
 
-Description:
+**Description:**
 
 A near real-time detection system to track physical objects using FPGA technology and a camera for enhanced image processing.
 
@@ -76,7 +76,7 @@ This project was created for EC551 at Boston University in Fall 2023.
 
 See our GitHub for more information at: https://github.com/agwoska/DetectoVision
 
-Team Members:
+**Team Members:**
 - Mehedi Hassan
 - Visaal Nekkanti
 - Andrew Woska
