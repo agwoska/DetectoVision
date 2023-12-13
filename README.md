@@ -66,7 +66,7 @@ The demo video is located [here](https://drive.google.com/file/d/1C8tdOEMH_KIV-M
 You must have the correct access to get to it.
 Reach out to Andrew at agwoska@bu.edu or andrew@woska.org for access if needed.
 
-**Title:** DetectoVision
+**Title:** DetectoVision: Object Detection on FPGA
 
 **Description:**
 
