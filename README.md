@@ -62,7 +62,7 @@ This project is licensed [here](./LICENSE).
 
 ## Video
 
-The demo video is located ![here]([https://drive.google.com/drive/folders/191mPTwozpH7jWF0dYr3jjbuj1WBnaC5sharingo?usp=)](https://drive.google.com/file/d/1krqtR_ORjHd4bOfd8cVFuQIxhhcWn58o/view?usp=drive_link) on Google Drive.
+The demo video is located ![here](https://drive.google.com/file/d/1krqtR_ORjHd4bOfd8cVFuQIxhhcWn58o/view?usp=sharing) on Google Drive.
 You must have the correct access to get to it.
 Reach out to Andrew at agwoska@bu.edu or andrew@woska.org for access if needed.
 
